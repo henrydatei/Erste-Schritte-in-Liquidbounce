@@ -1,0 +1,176 @@
+LiquidBounce hat sehr viele Module und es ist schwer da am Anfang einen Überblick zu bekommen. Ich habe deswegen die wichtigsten Module \textcolor{lime!50}{grün} hinterlegt.
+
+\subsection{Exploit}
+
+Die folgenden Module sind Exploits, die in der Regel auf bestimmten Versionen von Anticheats funktionieren, aber in aller Regel nicht.
+\begin{longtable}{p{3cm}|p{10cm}}
+\textbf{Hack} & \textbf{Erklärung} \\
+\hline
+AbortBreaking & Man kann das Abbauen eines Blockes unterbrechen und später weitermachen, ohne seinen Fortschritt zu verlieren. \\
+\hline
+AntiHunger & Funktioniert manchmal auf alten AAC-Versionen und unterdrückt, dass man Hunger bekommt. \\
+\hline
+BedGodMode & Funktioniert nur in der 1.9 und ist damit in einem 1.8-Client sinnlos. \\
+\hline
+ConsoleSpammer & Spammt die Serverkonsole mit Müll zu. Man wird dabei in der Regel gekickt. \\
+\hline
+Damage & Man fügt sich selber Schaden zu. \\
+\hline
+EmptyMessage & Sendet eine leere Nachricht im Chat. \\
+\hline
+ForceUnicodeChat & Ersetzt alle ASCII-Zeichen im Chat durch Unicode-Zeichen. \\
+\hline
+Ghost & Nachdem man gestorben ist, kann man weiter herumlaufen. Ich sehe keine Verwendung dafür. \\
+\hline
+GhostHand & Erlaubt es mit Blöcken durch die Wand zu interagieren. Recht nützlich bei Kisten. Man muss den Block, mit dem man interagieren möchte mit \texttt{.ghosthand select chest} einstellen. \\
+\hline
+GodMode & Ein Exploit für eine alte Version für AAC mit der man nicht sterben konnte. \\
+\hline
+ItemTeleport & Man kann sich zu Items teleportieren, funktioniert in der Regel nicht. \\
+\hline
+KeepContainer & Man kann Container (Kisten, Villager-Inventare, ...) von überall öffnen. Noch nie benutzt ... \\
+\hline
+Kick & Man kann sich selber kicken. Nützlich, wenn man gerade einen Kampf verliert, aber bestraft wird, wenn man den Server verlässt. Ähnliche Funktion wie Damage. \\
+\hline
+MoreCarry & Man kann in den 4 Crafting-Slots im Inventar Items lagern. \\
+\hline
+MultiActions & Man kann andere Items benutzen, wenn man gerade Blöcke abbaut. \\
+\hline
+NoPitchLimit & keine Ahnung ... \\
+\hline
+Paralyze & Wenn man sich in andere Spieler reinstellt, fängt deren Game an zu laggen. Aber leider auch dein Eigenes ... \\
+\hline
+Phase & Man kann durch Blöcke laufen. Ähnlich wie NoClip. \\
+\hline
+PingSpoof & Setzt den vom Server \textit{gesehenen Ping} auf einen festgelegten Wert. Kann nützlich sein, um Items als erster zu bekommen, oder bei manchen Servern Anti-Knockback zu deaktivieren. \\
+\hline
+\rowcolor{lime!50}Plugins & Zeigt die Plugins an, die auf einem Server installiert sind. Funktioniert recht häufig. \\
+\hline
+ServerCrasher & Name ist Programm ... Zumindest manchmal. \\
+\hline
+Teleport & Wenn aktiviert, muss man mit der mittleren Maustaste (in der Regel dem Mausrad) einen Block auswählen. Mit SHIFT teleportiert man sich dann dahin. Nützlich für Jump-and-Runs in Lobbys. \\
+\hline
+VClip & Teleportiert einen senkrecht nach oben. \\
+\hline
+VehicleOneHit & Man kann Minecarts mit einem Schlag zerstören. \\
+\end{longtable}
+
+\subsection{World}
+
+\begin{longtable}{p{3cm}|p{10cm}}
+\textbf{Hack} & \textbf{Erklärung} \\
+\hline
+AutoBreak & Baut den Block ab, den man gerade ansieht. \\
+\hline
+\rowcolor{lime!50}ChestAura & Öffnet Kisten in einem Radius. Nützlich in Zusammenhang mit dem ChestStealer. \\
+\hline
+\rowcolor{lime!50}ChestStealer & Wenn man eine Kiste öffnet, werden alle Inhalte automatisch ins Inventar gezogen, und die Kiste wieder geschlossen. Bei Survival-Games äußerst praktisch. Bitte in Lobbys deaktivieren, da ansonsten deren Menüs buggen. \\
+\hline
+CivBreak & Baut Blöcke instant ab. Funktioniert in der Regel nicht. \\
+\hline
+FastBreak & Baut Blöcke schneller ab, sorgt aber in der Regel für Flags, bringt also keinen Geschwindigkeitsvorteil. \\
+\hline
+FastPlace & Man kann Blöcke deutlich schneller platzieren. Benutzen Legits auch häufig. \\
+\hline
+\rowcolor{lime!50}Fucker & Zerstört automatisch einen festgelegten Blocktyp in einem Radius um den Spieler (teils auch durch Wände). Macht einen zum Bedwars- / Cakewars-King. Der zu zerstörende Block muss aber mit \texttt{.fucker select bed} eingestellt werden. \\
+\hline
+Liquids & Erlaubt es einem mit Flüssigkeiten zu interagieren, das heißt auf Wasserquellen Blöcke oder andere Wasserquellen zu setzen. \\
+\hline
+Nuker & Baut in einem Ring alle Blöcke ab. Vorsicht im Creative-Modus, die Welt ist schnell kaputt. \\
+\hline
+\rowcolor{lime!50}Scaffold & Setzt Blöcke vor dem Spieler ins Void. Nützlich um sich bei Bedwars rüber zu bauen. \\
+\hline
+Timer & Beschleunigt die Zeit in Minecraft. Kann als Speed benutzt werden, wird aber häufig erkannt. \\
+\hline
+\rowcolor{lime!50}Tower & Stackt den Spieler hoch, und zwar extrem schnell. \\
+\end{longtable}
+
+\subsection{Targets}
+
+Das sind eigentlich Einstellungen und keine Hacks. Sie beeinflussen, welche Ziele die Killaura angreift und welche Entities im ESP angezeigt werden.
+
+\begin{longtable}{p{3cm}|p{10cm}}
+\textbf{Einstellung} & \textbf{Erklärung} \\
+\hline
+Players & normale Spieler \\
+\hline
+Mobs & Bösartige Wesen (Zombies, Skeletons etc.) \\
+\hline
+Animals & Tiere \\
+\hline
+Invisible & Unsichtbare Wesen / Spieler. \\
+\hline
+Dead & Tote Spieler / Wesen. Bei einigen Anticheats benötigt, um Spieler korrekt zu erkennen. \\
+\end{longtable}
+
+\subsection{Render}
+
+Render-Hacks können von Anticheats nicht erkannt werden. Das ist nur durch Verhaltensanalyse, zum Beispiel bei häufigem schnellen Abbau von Diamanten hintereinander auf Survival-Servers $\to$ X-Ray-Hack.
+
+\begin{longtable}{p{3cm}|p{10cm}}
+\textbf{Hack} & \textbf{Erklärung} \\
+\hline
+\rowcolor{lime!50}AntiBlind & Entfernt den Blindness- und den Nausea-Effekt. \\
+\hline
+\rowcolor{lime!50}BlockESP & Man sieht den eingestellten Block durch die Wand, zum Beispiel ein Bett bei Bedwars. Muss mit \texttt{.blockesp select bed} konfiguriert werden. \\
+\hline
+BlockOverlay & Ein anderes Block Overlay. Finde ich hässlich. \\
+\hline
+Breadcrumbs & Zeichnet eine Linie überall wo man langgeht. \\
+\hline
+CameraClip & Man kann in der Third-Person-View durch Wände sehen. Man kann aber auch einen ESP benutzen. \\
+\hline
+Chams & Siehe ESP. Braucht man eigentlich nicht. \\
+\hline
+\rowcolor{lime!50}ClickGUI & Die Übersicht über alle Hacks. \\
+\hline
+\rowcolor{lime!50}ESP & Ich kann sehen was du nicht siehst! Durch Wände. Einer der wichtigsten und grundlegendsten Hacks, um sich einen Spielvorteil zu verschaffen. Sollte immer angeschaltet sein. \\
+\hline
+FreeCam & Ist sie aktiviert, kann man frei herumfliegen mit einer virtuellen Kamera. Man kann also auch sich selbst betrachten. \\
+\hline
+\rowcolor{lime!50}Fullbright & Man sieht die Welt immer wie am Tag. Sollte immer an sein. \\
+\hline
+HUD & Damit kann man konfigurieren, welche Elemente man sehen möchte, wenn man nicht in der ClickGUI ist. \\
+\hline
+HeadRotations & Man sieht die Richtung der Köpfe wie der Server sie sieht. Sinnlos. \\
+\hline
+\rowcolor{lime!50}ItemESP & Wie ESP, aber für Items. \\
+\hline
+\rowcolor{lime!50}NameTags & Wichtige Ergänzung für den ESP: Neben den Spielernamen werden Daten dieser Spieler angezeigt wie Leben und Equipment, sowie Rüstung. Macht aber auch die Namen über den Spielern größer und Map-weit sichtbar. \\
+\hline
+NoBob & Verhindert irgendeinen Clientside-Effekt. Kann man anschalten, muss man nicht. \\
+\hline
+NoFOV & Verhindert den Zoom-Effekt bei Speed-Potions und beim Sprinten. \\
+\hline
+NoHurtCam & Bild wackelt nicht, wenn man angegriffen wird. \\
+\hline
+NoScoreboard & Kein Scoreboard mehr \\
+\hline
+NoSwing & Keine Swing-Animation des Schwertes. \\
+\hline
+Projectiles & Man sieht, wo Pfeile, Enderperlen, etc. landen werden. \\
+\hline
+ProphuntESP & Ein ESP für Versteck-Spielmodi. Funktioniert aber nicht immer richtig. \\
+\hline
+RemoteView & Erlaubt es das Gesehen durch einen anderen Spieler zu sehen. \texttt{.remoteview Spielername} \\
+\hline
+\rowcolor{lime!50}StorageESP & Kisten sind durch Wände zu sehen. \\
+\hline
+SwingAnimation & Eine andere Schwung-Animation des Schwertes. \\
+\hline
+Tracers & Linien vom Fadenkreuz zu den nächsten Spielern. \\
+\hline
+TrueSight & Man sieht unsichtbare Entities, wie im Gamemode 3. \\
+\hline
+\rowcolor{lime!50}XRay & Alle Blöcke außer Erzen, Kisten, etc. sind transparent. \\
+\end{longtable}
+
+\subsection{Movement}
+
+\subsection{Player}
+
+\subsection{Fun}
+
+\subsection{Combat}
+
+\subsection{Misc}
