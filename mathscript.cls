@@ -240,6 +240,14 @@
 
 \newmdtheoremenv[%
 	style=boxedtheorem,%
+	innertopmargin=\topskip,%
+	innerbottommargin=\topskip,%
+	linecolor=darkgrey,%
+	backgroundcolor=lightgrey,%
+]{hinweis}{Hinweis}
+
+\newmdtheoremenv[%
+	style=boxedtheorem,%
 	linecolor=darkgrey,%
 	topline=false,%
 	rightline=false,%
